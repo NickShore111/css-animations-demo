@@ -1,6 +1,7 @@
 section {
   margin: 10px;
 }
+
 .box1 {
   width: 100px;
   height: 100px;
@@ -11,6 +12,7 @@ section {
   transition-property: background-color, border, height, width;
   transition-duration: 2s, 2s, 2s, 2s;
 }
+
 .box1:hover {
   width: 150;
   height: 60px;
@@ -26,11 +28,11 @@ section {
   left: 0px;
   top: 0px;
   position: relative;
-  transition-property: width height background-color font-size left top
-    transform color;
+  transition-property: width height background-color font-size left top transform color;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
+
 .box2:hover {
   transform: rotate(270deg);
   width: 50px;
@@ -41,11 +43,11 @@ section {
   left: 25px;
   top: 10px;
   position: relative;
-  transition-property: width height background-color font-size left top
-    transform color;
+  transition-property: width height background-color font-size left top transform color;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
+
 .animated-box {
   width: 200px;
   height: 200px;
@@ -59,14 +61,18 @@ section {
   animation-duration: 2s;
   animation-direction: alternate;
 }
+
 @keyframes flash {
   from {
     opacity: 1;
   }
+
   to {
     opacity: 0;
   }
 }
+
+
 
 /* Slide 19 */
 .transform-circle {
