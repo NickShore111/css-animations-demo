@@ -66,4 +66,9 @@ section {
   to {
     opacity: 0;
   }
+  /* When the parser encounters two keyframes with the same name, 
+  the parser will assign the selectors it encounters last. */
+  @keyframes flash {
+    opacity: 1;
+  }
 }
